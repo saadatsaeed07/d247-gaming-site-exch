@@ -1426,9 +1426,7 @@ body {
          url('./assets/dfont.ttf') format('truetype');
 }
 
-body {
-    font-family: 'MyCustomFont', sans-serif;
-}
+
 
 [class^="icon-"],
 [class*=" icon-"] {
