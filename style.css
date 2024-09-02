@@ -1426,6 +1426,10 @@ body {
          url('./assets/dfont.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Dfont';
+    src: url('https://github.com/saadatsaeed07/d247-gaming-site-exch/raw/main/assets/dfont.ttf') format('truetype');
+}
 
 
 [class^="icon-"],
