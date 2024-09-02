@@ -1682,6 +1682,11 @@ body {
 .card-black {
   color: #000000 !important;
 }
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('./assets/dfont.ttf') format('truetype');
+}
+
 
 /*End Fonts*/
 
