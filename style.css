@@ -1419,14 +1419,15 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
-  font-family: "dfont";
-  src: url("../assets/dfont.ttf");
-  src: url("../assets/dfont.ttf") format("embedded-opentype"), url("../fonts/dfont.ttf") format("truetype"), url("../assets/dfont.ttf") format("woff"), url("../assets/dfont.ttf") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+    font-family: 'Dfont';
+    src: url('./assets/dfont.woff2') format('woff2'),
+         url('./assets/dfont.woff') format('woff'),
+         url('./assets/dfont.ttf') format('truetype');
+}
+
+body {
+    font-family: 'MyCustomFont', sans-serif;
 }
 
 [class^="icon-"],
@@ -1681,10 +1682,6 @@ body {
 
 .card-black {
   color: #000000 !important;
-}
-@font-face {
-    font-family: 'MyCustomFont';
-    src: url('./assets/dfont.ttf') format('truetype');
 }
 
 
